@@ -4,11 +4,14 @@
  * @flow
  */
 
-import React, { Component } from 'react';
-import { Text } from 'react-native';
+import React from 'react';
+import { View } from 'react-native';
+import Header from './src/components/header';
+
+console.log(Header);
 
 const ReactNativeTutorial = () => {
-  return (<Text>Witaj mohamed!</Text>);
-}
+  return (<Header />);
+};
 
 export default ReactNativeTutorial;
