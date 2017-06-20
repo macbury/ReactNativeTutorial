@@ -18,10 +18,10 @@ const styles = StyleSheet.create({
   }
 });
 
-export default function Header() {
+export default function Header(props) {
   return (
     <View style={styles.viewStyle}>
-      <Text style={styles.textStyle}>Albums!</Text>
+      <Text style={styles.textStyle}>{props.headerText}</Text>
     </View>
   );
 };

@@ -6,4 +6,5 @@
 
 import ReactNativeTutorial from './index.universal';
 import { AppRegistry } from 'react-native';
+
 AppRegistry.registerComponent('ReactNativeTutorial', () => ReactNativeTutorial);
